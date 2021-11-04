@@ -1,0 +1,34 @@
+.noPaddingTop{
+    padding-top: 0px !important;
+}
+.noMarginBottom{
+    margin-bottom: 0px !important;
+}
+.noMarginTop{
+    margin-top: 0px !important;
+}
+.noMinHeight{
+    min-height: 0px !important;
+}
+.custom-page-header{
+    height:120px !important;
+    min-height:120px !important;
+}
+.custom-content-center{
+    padding-top: 5px !important;
+}
+.custom-section-seperator
+{
+    margin-top: 50px !important;
+}
+.custom-name{
+    display: contents !important;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .custom-name{
+        display: none !important;
+    }
+    
+}
