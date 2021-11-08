@@ -82,6 +82,9 @@ body{
     background-color: #666;
     font-family: 'Futura PT';
 }
+.contentWrapper{
+    box-shadow: 8px 0 8px -4px #000, -8px 0 8px -4px #000;
+}
 .paddingLeft5px{
     padding-left: 5px !important;
 }
@@ -220,6 +223,7 @@ body{
 }
 .contentBodyWrapper{
     width:100%;
+    margin-bottom: 30px;
 }
 .workTitileLabel{
     text-transform: uppercase;
