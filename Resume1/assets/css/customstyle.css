@@ -80,6 +80,7 @@ font-display: fallback;
 
 body{
     background-color: #666;
+    background-image: url('../images/bg1.jpg');
     font-family: 'Futura PT';
 }
 .contentWrapper{
