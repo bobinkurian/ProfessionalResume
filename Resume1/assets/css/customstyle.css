@@ -91,7 +91,7 @@ body{
 }
 .leftsidebar{
     background-color: #DDD;
-    box-shadow: 5px 0 5px -3px rgb(28, 54, 65);
+    box-shadow: 5px 0 5px -3px #333 /* rgb(28, 54, 65)  */ ;
     z-index: 1000;
 }
 .midsection{
