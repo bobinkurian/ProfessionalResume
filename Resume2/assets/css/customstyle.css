@@ -1,0 +1,522 @@
+
+@font-face {font-family: 'Karla'; src: url('../fonts/karla-italic.woff2') format('woff2'),
+    url('../fonts/karla-italic.woff') format('woff');
+font-weight: normal;
+font-style: italic;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Karla';
+src: url('../fonts/karla-regular.woff') format('woff2'),
+    url('../fonts/karla-regular.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Karla';
+src: url('../fonts/karla-bold.woff') format('woff2'),
+    url('../fonts/karla-bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Futura PT';
+src: url('../fonts/futurapt-bold.woff') format('woff2'),
+    url('../fonts/futurapt-bold.woff') format('woff');
+font-weight: bold;
+font-style: normal;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Futura PT';
+src: url('../fonts/futurapt-heavy.woff') format('woff2'),
+    url('../fonts/futurapt-heavy.woff') format('woff');
+font-weight: 900;
+font-style: normal;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Futura PT Demi';
+src: url('../fonts/futurapt-demi.woff') format('woff2'),
+    url('../fonts/futurapt-demi.woff') format('woff');
+font-weight: 600;
+font-style: normal;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Futura PT';
+src: url('../fonts/futurapt-medium.woff') format('woff2'),
+    url('../fonts/futurapt-medium.woff') format('woff');
+font-weight: 500;
+font-style: normal;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Futura PT';
+src: url('../fonts/futurapt-lightobl.woff') format('woff2'),
+    url('../fonts/futurapt-lightobl.woff') format('woff');
+font-weight: 300;
+font-style: italic;
+font-display: fallback;
+}
+
+@font-face {
+font-family: 'Futura PT';
+src: url('../fonts/futurapt-light.woff') format('woff2'),
+    url('../fonts/futurapt-light.woff') format('woff');
+font-weight: 300;
+font-style: normal;
+font-display: fallback;
+}
+
+body{
+    background-color: #666;
+    background-image: url('../images/bg.jpg');
+    font-family: 'Futura PT';
+}
+.contentWrapper{
+    box-shadow: 8px 0 8px -4px rgb(20, 38, 46), -8px 0 8px -4px rgb(20, 38, 46);
+}
+.paddingLeft5px{
+    padding-left: 5px !important;
+}
+.noPaddingLeftRight{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.noPaddingLeft{
+    padding-left: 0px !important;
+}
+.noPaddingRight{
+    padding-right: 0px !important;
+}
+.leftsidebar{
+    background-color: #333;
+    background-image: url('../images/headerExperiencebg.jpg');
+    color: #FFF;
+    box-shadow: 5px 0 5px -3px #333 /* rgb(28, 54, 65)  */ ;
+    z-index: 1000;
+    text-align: right;
+}
+.alignRight{
+    text-align: right !important;
+}
+.midsection{
+    background-color: #FFF;
+}
+.headerheight{
+    height:325px;
+}
+.headerContentHeight{
+    height:225px;
+}
+.profileWrapper{
+    position: relative;
+}
+.profilePic{
+    width: 100%;
+}
+.profilePic img{
+    margin:0 auto;
+    width: 100%;
+    max-width: 285px;
+}
+.headerStripHeight{
+    height:100px;
+}
+.headerStripStyle{
+    background-color:  RGB(209,175,52);
+}
+.headerStrip{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.headerContent{
+    padding-top:20px
+}
+.headingRowContent{
+    height: 32px;
+}
+.headingLabel{
+    font-family: 'Karla';
+    font-size: 24px;
+    padding-left: 4px;
+}
+.contentLabel{
+    display: inline;
+}
+.contentLabel span{
+    margin-top: 10px !important;
+}
+.headerName{
+    height: 50px;
+    font-family: 'Karla';
+    font-size: 42px;
+    color: #000;
+    text-transform: uppercase;
+}
+.headerPosition{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    text-transform: uppercase;
+    padding-left: 18px;
+}
+.headerNameContainer{
+    height:auto;
+}
+.contentSessionWrapper{
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contentSessionHeader{
+    padding:5px;
+    border-bottom: 2px solid RGB(209,175,52);
+    color: RGB(209,175,52);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.midContentSessionHeader{
+    padding:5px;
+    border-bottom: 2px solid #333;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contentSessionBody{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: justify;
+    font-family: 'Karla';
+    line-height: 20px;
+}
+.contentSeperator{
+    margin-top:30px;
+}
+.skillItems{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.languageItems{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.languageItemsRating{
+    padding-top: 3px;
+    direction: rtl;
+}
+.squareRating{
+    width:16px;
+    height:16px;
+    border:1px solid #666;
+    display: inline-block;
+    padding-right: 4px;
+}
+.squareRatingFill{
+    background-color: RGB(209,175,52);
+}
+.HobbiesItems{
+    display: block;
+    padding-bottom: 10px;
+    direction: rtl;
+}
+.HobbiesItems div{
+    display: inline-block;
+}
+.hobbiesItemLogo{
+padding-left:10px;
+}
+.hobbiesItemLabel{
+    padding-left: 5px;
+}
+.achievementsULSpacing{
+    direction: rtl;
+    margin-bottom:0px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.achievementsULSpacing li{
+    margin-bottom: 7px;
+}
+.achievementsULSpacing li > div{
+    float: right;
+    margin-bottom: 7px;
+}
+.contentBodyWrapper{
+    width:100%;
+    margin-bottom: 30px;
+}
+.workTitileLabel{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.workDurationLabel{
+    font-style: italic;
+}
+.workCompanyName{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.workCompanyDescription{
+
+}
+.workItems{
+    margin-top: 20px;
+}
+.floatLeft{
+    float: left !important;
+}
+.personalInfoLabel{
+    width:39%;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 3px;
+}
+.personalInfoData{
+    width:59%;
+    display: inline-block;
+}
+.personalInfoSeparation{
+    padding-bottom: 3px;
+}
+.downloadResume:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.showInMV{
+    display: none;
+}
+.DownloadIconMV{
+    position: absolute;
+    right: 20px;
+    top:15px;
+    font-size: 24px;
+    display: none;
+}
+.associateName{
+    font-size: 48px;
+    font-family: Didot;
+    line-height: 50px;
+    font-weight: bold;
+}
+.headerExperience{
+    width: calc(100% - 12px);
+    display: block;
+    color:RGB(209,175,52);
+    background-image: url('../images/headerExperiencebg.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+    padding:6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.headerCaption{
+    color: #FFF;
+    height: 100px;
+    line-height: normal;
+}
+.headerAddress{
+    padding:15px;
+    margin-left: 15px;
+}
+.headerAddress span{
+    font-weight: bold;
+}
+.vertical-center {
+    min-height: 100%; 
+    display: flex;
+    align-items: center;
+}
+.progress{
+    border-radius: 0px !important;
+    direction: rtl;
+}
+.progress-bar{
+    background-color: RGB(209,175,52);
+}
+.order1{
+    order: 1 !important;
+}
+.order2{
+    order: 2 !important;
+}
+.contentSessionItems{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.downloadResumeHeader{
+    position: absolute;
+    top:5px;
+    right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    color:#BBB;
+
+}
+.downloadResumeHeader:hover{
+    color:#333;
+}
+
+@media print {
+    html, body {
+        background-color: #FFF;    
+        float: left;
+    }
+    pre,blockquote {
+        page-break-inside: avoid;
+    }
+    .leftsidebar .contentSessionWrapper {
+        width:190px !important;
+        display: block;
+    }
+
+    .midsection .headerStrip{
+        width:100vw !important;
+    }
+    .downloadResume{
+        display: none !important;
+    }
+
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    body {
+        padding-top: 72px;
+        padding-bottom: 72px ;
+    }
+    .skillItems{
+        display: inline-flex;
+    }
+    .order1{
+        order: 2 !important;
+    }
+    .order2{
+        order: 1 !important;
+    }
+    .downloadResumeHeader{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .hiddenInMV{
+        display: none;
+    }
+    .showInMV{
+        display: inline;
+    }
+    .skillItems{
+        width: 50% !important;
+        display: inline-flex;;
+    }
+    .skillItems:nth-child(even) {
+        margin-left: 40px;
+    }
+    .languageItems{
+        width: 36.6% !important;
+        display: inline-flex;
+    }
+    .languageItems:nth-child(even) {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .languageItems > div{
+        width: 100% !important;
+        max-width:100% !important;
+        display: inline-block !important;
+        flex:none !important;
+    }
+    .HobbiesItems{
+        width: 32% !important;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .profileWrapper:hover .DownloadIconMV{
+        display: inline-block;
+    }
+    .order1{
+        order: 2 !important;
+    }
+    .order2{
+        order: 1 !important;
+    }
+    .contentSessionItems{
+        width: 100% !important;
+        display: inline-flex;
+    }
+    .contentSessionItems > div.order2{
+        width: 5%;
+        order: 2 !important;
+        padding-right: 0px;
+    }
+    .contentSessionItems > div.order1{
+        width: 95%;
+        order: 1 !important;
+    }
+    .headerStripStyle{
+        opacity: .6;
+    }
+}
+
+@media screen and (max-width: 975px) and (min-width: 769px) {
+    .skillItems{
+        width: 100% !important;
+        display: inline-flex;;
+    }
+    .skillItems > div{
+        width: 125% !important;
+        max-width:125% !important;
+        display: inline-block !important;
+        flex:none !important;
+    }
+    .order1{
+        order: 2 !important;
+    }
+    .order2{
+        order: 1 !important;
+    }    
+    .languageItems{
+        width: 100% !important;
+        display: inline-flex;;
+    }
+    .languageItems > div{
+        width: 125% !important;
+        max-width:125% !important;
+        display: inline-block !important;
+        flex:none !important;
+    }
+    .squareRatingFill{
+        background-color: RGB(209,175,52);;
+    }
+    .contentSessionItems{
+        width: 100% !important;
+        display: inline-flex;;
+    }
+    .contentSessionItems > div{
+        width: 125% !important;
+        max-width:125% !important;
+        display: inline-block !important;
+        flex:none !important;
+    }
+}
