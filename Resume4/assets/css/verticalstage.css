@@ -1,0 +1,96 @@
+.fxVerticalStage{
+    margin-top: 20px;
+    padding-left: 0px;
+}
+.fxVerticalStage li { 
+    display: flex; 
+  }
+  
+  .fxVerticalStage div.VStageLeftSide { 
+      position: relative;
+      width:30% !important;
+      height: inherit;
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: left !important;
+  }
+  .fxVerticalStage div.VStageLeftSideWrapper { 
+    width:100% !important;
+  }
+  
+  .fxVerticalStage div.VStageLeftSide::after { 
+     content: "";
+     position: absolute;
+     z-index: 2;
+     right: 0;
+     top: 0;
+     transform: translateX(50%);
+     border-radius: 50%;
+     border: 1px #BBB solid;
+     background-color: #BBB;
+     width: .8em;
+     height: .8em;
+  }
+  
+  .fxVerticalStage span {
+    position: relative;
+    padding-left:0px !important;
+  }
+  
+  .fxVerticalStage span::before {
+     content: "";
+     position: absolute;
+     z-index: 1;
+     left: -1;
+     height: 100%;
+     border-left: 2px #BBB solid;
+  }
+  
+  .fxVerticalStage strong {
+     display: block;
+     font-weight: bolder;
+  }
+  
+  
+  
+  .VStageLeftSideContainer{
+      width:100%;
+  }
+  .VStageLeftSideTop{
+      width:100%;
+      height:inherit;
+      border-bottom:1px solid #BBB ;
+      padding:3px;
+      padding-right:0px;
+      display: flex;
+      align-items: center;
+  }
+  .VStageLeftSideBottom{
+      width:100%;
+      padding:3px;
+  }
+  
+  .VStageRightSideContainer{
+      width:100%;
+      margin-bottom:40px;
+  }
+  .VStageRightSideTop{
+      width:100%;
+      color:#333;
+      padding:3px;
+      padding-right:0px;
+      margin-top:-20px;
+      border-bottom:2px solid #BBB;
+      padding-left:20px;
+  }
+  .VStageRightSideBottom{
+      width:100%;
+      padding:3px;
+      padding-left:20px;
+      padding-top:6px;
+  }
+  .VStageRightSideSpan{
+      padding-left:0px;
+      width:70% !important;
+  }
