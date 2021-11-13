@@ -27,8 +27,8 @@
      top: 0;
      transform: translateX(50%);
      border-radius: 50%;
-     border: 1px #BBB solid;
-     background-color: #BBB;
+     border: 1px RGB(209,175,52) solid;
+     background-color: RGB(209,175,52);
      width: .8em;
      height: .8em;
   }
@@ -44,7 +44,7 @@
      z-index: 1;
      left: -1;
      height: 100%;
-     border-left: 2px #BBB solid;
+     border-left: 2px RGB(209,175,52) solid;
   }
   
   .fxVerticalStage strong {
@@ -60,8 +60,9 @@
   .VStageLeftSideTop{
       width:100%;
       height:inherit;
-      border-bottom:1px solid #BBB ;
+    /*  border-bottom:1px solid RGB(209,175,52) ;   */
       padding:3px;
+      padding-bottom: 0px;
       padding-right:0px;
       display: flex;
       align-items: center;
@@ -69,24 +70,24 @@
   .VStageLeftSideBottom{
       width:100%;
       padding:3px;
+      padding-top:0px;
   }
   
   .VStageRightSideContainer{
-      width:100%;
+      width: calc(100% - 20px);
       margin-bottom:40px;
+      margin-left:20px;
   }
   .VStageRightSideTop{
       width:100%;
       padding:3px;
       padding-right:0px;
       margin-top:-20px;
-      border-bottom:2px solid #BBB;
-      padding-left:20px;
+      border-bottom:2px solid RGB(209,175,52);
   }
   .VStageRightSideBottom{
       width:100%;
       padding:3px;
-      padding-left:20px;
       padding-top:6px;
   }
   .VStageRightSideSpan{

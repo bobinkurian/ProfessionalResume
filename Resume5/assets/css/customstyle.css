@@ -415,9 +415,14 @@ padding-left:10px;
     .skillItems:nth-child(even) {
         margin-left: 40px;
     }
+    .languageItemBody{
+        float: left;
+        margin-bottom: 40px;
+    }
     .languageItems{
-        width: 36.6% !important;
+        width: 33.3% !important;
         display: inline-flex;
+        float: right;
     }
     .languageItems:nth-child(even) {
         margin-left: 5px;
